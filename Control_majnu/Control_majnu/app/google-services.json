@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "916412002996",
+    "project_id": "haip4-c99f1",
+    "storage_bucket": "haip4-c99f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916412002996:android:d0a835fdf73fbaad45dde1",
+        "android_client_info": {
+          "package_name": "com.example.control_majnu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916412002996-9ajim5c2jva21jn37vnli6l34v0qlktp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNCDVWo3c_MNSWygYa7PJi5exMdpkM3QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916412002996-9ajim5c2jva21jn37vnli6l34v0qlktp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

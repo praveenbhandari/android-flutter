@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/grad"
+    tools:context=".AboutUs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="\n\nHappy Cherian\nComputer Science and Engineering\nFr.Crce Bandra(W)\n
+happycherian2001@gmail.com
+"
+                android:textColor="@color/black"
+                android:textColorLink="#A13F3F"
+                android:textSize="15dip" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="\n\nIbin Babu\nComputer Science and Engineering\nFr.Crce Bandra(W)\n
+Ibin.p12@gmail.com
+"
+                android:textColor="@color/black"
+                android:textColorLink="#A13F3F"
+                android:textSize="15dip" />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="\n\nAustin Fernandes\nComputer Science and Engineering\nFr.Crce Bandra(W)\n
+fernandesjoly@gmail.com
+"
+                android:textColor="@color/black"
+                android:textColorLink="#A13F3F"
+                android:textSize="15dip" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:text="\n\nPratik Harde\nComputer Science and Engineering\nFr.Crce Bandra(W)\n
+pratikharde2000@gmail.com"
+                android:textColor="@color/black"
+                android:textColorLink="#A13F3F"
+                android:textSize="15dip" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

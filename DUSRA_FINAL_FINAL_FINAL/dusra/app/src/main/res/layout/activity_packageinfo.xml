@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/average_sans"
+                android:text="One Year Zero Rental Plan"
+                android:textColor="#171817"
+                android:textSize="24sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="Plan Fee"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="INR 3101" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="GST@18%" />
+                    <TextView
+                        android:text="INR 558"
+                        android:layout_column="2"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="Total" />
+                    <TextView
+                        android:text="INR 3659"
+                        android:layout_column="2"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="Refundable Deposit" />
+                    <TextView
+                        android:text="INR 400
+"
+                        android:layout_column="2"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text=" Total" />
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="INR 4059" />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/average_sans"
+                android:text="Six Months Zero Rental Plan"
+                android:textColor="#171817"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="Plan Fee"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="INR 2102" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="GST@18%" />
+                    <TextView
+                        android:text="INR 378"
+                        android:layout_column="2"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="Total" />
+                    <TextView
+                        android:text="INR 2480"
+                        android:layout_column="2"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="Refundable Deposit" />
+                    <TextView
+                        android:text="INR 400
+"
+                        android:layout_column="2"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text=" Total" />
+                    <TextView
+                        android:text="INR 2880"
+                        android:layout_column="2"/>
+                </TableRow>
+
+
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/average_sans"
+                android:text="One Month Super Plan"
+                android:textColor="#171817"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="Plan Fee"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="INR 499" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="One Time Registration Fee" />
+                    <TextView
+                        android:text="INR 1500"
+                        android:layout_column="2"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="GST@18%" />
+                    <TextView
+                        android:text="INR 90"
+                        android:layout_column="2"/>
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text=" Total" />
+                    <TextView
+                        android:text="INR 2089"
+                        android:layout_column="2"/>
+                </TableRow>
+
+
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/average_sans"
+                android:text="One Month Premium Plan"
+                android:textColor="#171817"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="Plan Fee"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:text="INR 799" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="One Time Registration Fee" />
+                    <TextView
+                        android:text="INR 1500"
+                        android:layout_column="2"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text="GST@18%" />
+                    <TextView
+                        android:text="INR 144"
+                        android:layout_column="2"/>
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="138dp"
+                        android:text=" Total" />
+                    <TextView
+                        android:text="INR 2443"
+                        android:layout_column="2"/>
+                </TableRow>
+
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
