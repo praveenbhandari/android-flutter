@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203177221260",
+    "firebase_url": "https://led1-5e0f3.firebaseio.com",
+    "project_id": "led1-5e0f3",
+    "storage_bucket": "led1-5e0f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203177221260:android:7a998191460dc3f0",
+        "android_client_info": {
+          "package_name": "com.example.homeautomation19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203177221260-ubdgqrn70kbgjsnc40f3ebf4h860vdob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homeautomation19",
+            "certificate_hash": "9e8eaf3659a6aafbaef26204adaaac5ce4d0b82b"
+          }
+        },
+        {
+          "client_id": "203177221260-iklav5rsaoa6n7r51294f1cih8iu2do5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa_VTrLOyWQApySEbZO-rk4KT2YE-iXSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203177221260-iklav5rsaoa6n7r51294f1cih8iu2do5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

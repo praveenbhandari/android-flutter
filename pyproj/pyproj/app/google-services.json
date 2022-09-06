@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145538071302",
+    "firebase_url": "https://pyproj-8523a-default-rtdb.firebaseio.com",
+    "project_id": "pyproj-8523a",
+    "storage_bucket": "pyproj-8523a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145538071302:android:cc4c7d013fe1507d69fc87",
+        "android_client_info": {
+          "package_name": "com.example.pyproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145538071302-7kn0pp4hqsaq30pj32k9sp02uv9p1p2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnZCo7QEf3vzg8L_KUdab8RrWrQsbvddI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145538071302-7kn0pp4hqsaq30pj32k9sp02uv9p1p2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

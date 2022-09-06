@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "314569922697",
+    "firebase_url": "https://geofire-3e191.firebaseio.com",
+    "project_id": "geofire-3e191",
+    "storage_bucket": "geofire-3e191.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314569922697:android:6c291a5af2d1a130bf4e58",
+        "android_client_info": {
+          "package_name": "com.example.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314569922697-ic69s9sl0r3eh1eku5htam5jbv19436j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1reuA-Goq0l2H2vQTmsCq84_iiHnEl-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314569922697-ic69s9sl0r3eh1eku5htam5jbv19436j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314569922697:android:ba02df6c4ddc4192bf4e58",
+        "android_client_info": {
+          "package_name": "com.example.loc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314569922697-ic69s9sl0r3eh1eku5htam5jbv19436j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1reuA-Goq0l2H2vQTmsCq84_iiHnEl-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314569922697-ic69s9sl0r3eh1eku5htam5jbv19436j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314569922697:android:341092420bb5ec4cbf4e58",
+        "android_client_info": {
+          "package_name": "com.example.userloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314569922697-ic69s9sl0r3eh1eku5htam5jbv19436j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1reuA-Goq0l2H2vQTmsCq84_iiHnEl-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314569922697-ic69s9sl0r3eh1eku5htam5jbv19436j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

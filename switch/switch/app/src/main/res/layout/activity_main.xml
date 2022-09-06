@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:id="@+id/switch1"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="225dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="500dp"
+        android:text="Relay 1"
+        android:textColor="#433A33"
+        />
+
+    <Switch
+        android:id="@+id/switch2"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="225dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="350dp"
+        android:text="Relay 2"
+        android:textColor="#433A33"/>
+
+    <Switch
+        android:id="@+id/switch3"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="225dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="200dp"
+        android:text="Relay 3"
+        android:textColor="#433A33"/>
+
+    <Switch
+        android:id="@+id/switch4"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="225dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="Relay 4"
+        android:textColor="#433A33"
+        />
+</RelativeLayout>

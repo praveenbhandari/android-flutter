@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:showIn="navigation_view">
+<item android:title="1" android:id="@+id/a" android:icon="@drawable/ic_baseline_accessibility_new_24"></item>
+<item android:title="2" android:id="@+id/b" android:icon="@drawable/ic_baseline_airport_shuttle_24"></item>
+<item android:title="3" android:id="@+id/c" android:icon="@drawable/ic_baseline_architecture_24"></item>
+<item android:title="4" android:id="@+id/d" android:icon="@drawable/abc_vector_test"></item>
+<item android:title="5" android:id="@+id/e" android:icon="@drawable/ic_baseline_accessibility_new_24"></item>
+</menu>

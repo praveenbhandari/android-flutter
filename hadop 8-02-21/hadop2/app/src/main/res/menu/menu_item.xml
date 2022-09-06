@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:showIn="navigation_view">
+    <item
+        android:icon="@drawable/abc_vector_test"
+        android:title="somwthing 1" />
+    <item
+        android:icon="@drawable/ic_baseline_4k_24"
+        android:title="somwthing 2" />
+    <item
+        android:icon="@drawable/ic_baseline_5g_24"
+        android:title="somwthing 3" />
+    <item
+        android:icon="@drawable/ic_baseline_6_ft_apart_24"
+        android:title="somwthing 4" />
+    <item
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Logout" />
+
+</menu>

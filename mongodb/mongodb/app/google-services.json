@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426448185615",
+    "firebase_url": "https://mongodb-2c912.firebaseio.com",
+    "project_id": "mongodb-2c912",
+    "storage_bucket": "mongodb-2c912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426448185615:android:d5f34bd3f40cdc9af6b67a",
+        "android_client_info": {
+          "package_name": "com.example.mongodb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426448185615-b0c8cpaphhb7st4cm7elphk9fif1fgh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mongodb",
+            "certificate_hash": "9e8eaf3659a6aafbaef26204adaaac5ce4d0b82b"
+          }
+        },
+        {
+          "client_id": "426448185615-e67mmruhpaqbce1p9k2ru7ch49jt1r5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-YAw1cNXC0t5HQrV6zWDPM2kiB8tGZL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426448185615-e67mmruhpaqbce1p9k2ru7ch49jt1r5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

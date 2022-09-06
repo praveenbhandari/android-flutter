@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#9AA4DA"
+    android:orientation="vertical"
+    tool:showIn="navigation_view">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="137dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="  HADOP  "
+        android:fontFamily="@font/bangers"
+        android:textColor="#1064A6"
+        android:textSize="40dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

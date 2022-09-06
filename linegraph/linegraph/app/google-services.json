@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "437277211580",
+    "firebase_url": "https://line-graph-79a2a.firebaseio.com",
+    "project_id": "line-graph-79a2a",
+    "storage_bucket": "line-graph-79a2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437277211580:android:f457ea53b20d297f7ec9b9",
+        "android_client_info": {
+          "package_name": "com.example.linegraph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437277211580-4o0n6o0ah19go2e1tbmr2sb280fg6b9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.linegraph",
+            "certificate_hash": "0b2b782ec4e7ceb615b8bd71f0c14d9007f08e29"
+          }
+        },
+        {
+          "client_id": "437277211580-gbj944226ai5vfuc607dh45smf22736l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5-b76BPTvCKvwSoQQbC3Ijn3g4Tnaw5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437277211580-gbj944226ai5vfuc607dh45smf22736l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

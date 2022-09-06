@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1038939228905",
+    "firebase_url": "https://drowsiness-7896a.firebaseio.com",
+    "project_id": "drowsiness-7896a",
+    "storage_bucket": "drowsiness-7896a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038939228905:android:e3ce4b209de5eea0c9fe78",
+        "android_client_info": {
+          "package_name": "com.example.graph25"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038939228905-vf3ct0cl697rstmpkjnlp0l1rrbvbcco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.graph25",
+            "certificate_hash": "9e8eaf3659a6aafbaef26204adaaac5ce4d0b82b"
+          }
+        },
+        {
+          "client_id": "1038939228905-fuqafvfjhg7od14cf3u06uflceu0be4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa84puPaKxN1a856xn9Ws5DhkcOQVSLXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038939228905-fuqafvfjhg7od14cf3u06uflceu0be4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

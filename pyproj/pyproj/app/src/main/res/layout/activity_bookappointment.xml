@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookappointment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make an Appointment"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick a Date"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="265dp"/>
+
+        <EditText
+            android:id="@+id/selDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Select Date"
+            android:enabled="false"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:tooltipText="Select Time"
+            android:layout_marginTop="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_below="@+id/bt1"/>
+
+        <EditText
+            android:id="@+id/textTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Select Time"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/textSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Symptoms"
+            android:layout_below="@+id/textTime"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/textBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textSymptoms"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Blood Group"/>
+
+        <EditText
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textBloodGroup"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Your Full Name"/>
+
+        <EditText
+            android:id="@+id/textAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textName"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter your Age"/>
+
+        <EditText
+            android:id="@+id/textEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textAge"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Your Email ID"/>
+
+        <EditText
+            android:id="@+id/textPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textEmail"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Your Phone Number"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Gender"
+            android:layout_below="@+id/textPhone"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/textView10">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radioButton23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/textView8"
+            android:layout_below="@+id/radioGroup"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr."
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/radioGroup"/>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:text="Submit"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
